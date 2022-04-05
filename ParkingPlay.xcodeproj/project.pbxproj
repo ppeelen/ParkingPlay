@@ -14,6 +14,9 @@
 		2A323BFD27FCD4BF001DD278 /* ParkingPlayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A323BFC27FCD4BF001DD278 /* ParkingPlayTests.swift */; };
 		2A323C0727FCD4BF001DD278 /* ParkingPlayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A323C0627FCD4BF001DD278 /* ParkingPlayUITests.swift */; };
 		2A323C0927FCD4BF001DD278 /* ParkingPlayUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A323C0827FCD4BF001DD278 /* ParkingPlayUITestsLaunchTests.swift */; };
+		2A323C1827FCD6CC001DD278 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A323C1727FCD6CC001DD278 /* TabBar.swift */; };
+		2A323C1A27FCDBE0001DD278 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A323C1927FCDBE0001DD278 /* MapView.swift */; };
+		2A323C1D27FCE1D0001DD278 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A323C1C27FCE1D0001DD278 /* Place.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		2A323C0227FCD4BF001DD278 /* ParkingPlayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParkingPlayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A323C0627FCD4BF001DD278 /* ParkingPlayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingPlayUITests.swift; sourceTree = "<group>"; };
 		2A323C0827FCD4BF001DD278 /* ParkingPlayUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingPlayUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2A323C1727FCD6CC001DD278 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		2A323C1927FCDBE0001DD278 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		2A323C1C27FCE1D0001DD278 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +100,13 @@
 		2A323BEA27FCD4BE001DD278 /* ParkingPlay */ = {
 			isa = PBXGroup;
 			children = (
-				2A323BEB27FCD4BE001DD278 /* ParkingPlayApp.swift */,
-				2A323BED27FCD4BE001DD278 /* ContentView.swift */,
-				2A323BEF27FCD4BF001DD278 /* Assets.xcassets */,
 				2A323BF127FCD4BF001DD278 /* Preview Content */,
+				2A323C1B27FCE1C7001DD278 /* Entities */,
+				2A323BEF27FCD4BF001DD278 /* Assets.xcassets */,
+				2A323BED27FCD4BE001DD278 /* ContentView.swift */,
+				2A323C1927FCDBE0001DD278 /* MapView.swift */,
+				2A323BEB27FCD4BE001DD278 /* ParkingPlayApp.swift */,
+				2A323C1727FCD6CC001DD278 /* TabBar.swift */,
 			);
 			path = ParkingPlay;
 			sourceTree = "<group>";
@@ -125,6 +134,14 @@
 				2A323C0827FCD4BF001DD278 /* ParkingPlayUITestsLaunchTests.swift */,
 			);
 			path = ParkingPlayUITests;
+			sourceTree = "<group>";
+		};
+		2A323C1B27FCE1C7001DD278 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				2A323C1C27FCE1D0001DD278 /* Place.swift */,
+			);
+			path = Entities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +274,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A323C1827FCD6CC001DD278 /* TabBar.swift in Sources */,
+				2A323C1A27FCDBE0001DD278 /* MapView.swift in Sources */,
 				2A323BEE27FCD4BE001DD278 /* ContentView.swift in Sources */,
 				2A323BEC27FCD4BE001DD278 /* ParkingPlayApp.swift in Sources */,
+				2A323C1D27FCE1D0001DD278 /* Place.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
