@@ -19,7 +19,6 @@ class PlaceFetcher {
         debugPrint("Waiting for \(timeToWait) seconds to simulate network request...")
         try await Task.sleep(seconds: timeToWait)
 
-        debugPrint("Returning")
         return try getFromFile()
     }
 

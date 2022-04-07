@@ -1,6 +1,8 @@
 [
   {
     "id": "F4E4E877-828E-4FC4-96ED-5F0ADFFFFCCF",
+    "name": "1️⃣ is the loneliest number",
+    "subtitle": "Two can be as bad as One, it's the loneliest number since the number One.",
     "location": [
       18.11139511272728,
       59.348551066806323
@@ -9,10 +11,13 @@
       "red": 0.99999994039535522,
       "green": 0.23137253522872925,
       "blue": 0.18823528289794922
-    }
+    },
+    "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo lacinia quam, accumsan feugiat massa posuere et. Sed malesuada pretium placerat."
   },
   {
     "id": "2056B1D9-319A-4DF9-9C84-35B5EA1EFFAB",
+    "name": "It takes two",
+    "subtitle": "A totally different item",
     "location": [
       18.112897149803945,
       59.348113487029046
@@ -21,10 +26,13 @@
       "red": 0.20392152667045593,
       "green": 0.78039216995239258,
       "blue": 0.34901958703994751
-    }
+    },
+    "summary": "Fusce molestie dictum dolor eu suscipit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque finibus nunc non est vulputate eleifend vitae quis tortor. Aliquam ac maximus est. In viverra lacus posuere venenatis vehicula. Nulla facilisi. Pellentesque pretium ex eu consequat consequat."
   },
   {
     "id": "5D76FF38-EF50-4B42-85D6-80F5E0F6CB62",
+    "name": "3️⃣ is a magic number",
+    "subtitle": "This one is AMAZING!",
     "location": [
       18.11162041828878,
       59.347768888985392
@@ -33,10 +41,13 @@
       "red": 0.55686277151107788,
       "green": 0.55686277151107788,
       "blue": 0.57647061347961426
-    }
+    },
+    "summary": "Mauris maximus eu mi in volutpat.\n\nNunc nec dolor eros. Morbi vestibulum tristique finibus. Proin congue faucibus rutrum. Sed ullamcorper non quam in condimentum. Ut in neque faucibus, pretium turpis in, consectetur dui. Nam a pharetra risus."
   },
   {
     "id": "F29661E3-2DFC-441E-A6B9-9CC3CDA47A2F",
+    "name": "Item 4️⃣",
+    "subtitle": "One with 😆 🥴 🎉 ❤️ Emojis!",
     "location": [
       18.110332957952739,
       59.346292000592413
@@ -45,10 +56,13 @@
       "red": 0.99999994039535522,
       "green": 0.80000001192092896,
       "blue": 0
-    }
+    },
+    "summary": "Fusce vitae magna fermentum nunc suscipit egestas. Pellentesque viverra purus non urna fermentum fringilla. Mauris efficitur justo eu viverra tristique. Vivamus vitae lacus id justo sollicitudin dictum a sit amet lectus. In nec mi fermentum, euismod erat id, elementum massa."
   },
   {
     "id": "F3D76343-0D0E-4EF5-AF77-28753AE13ABF",
+    "name": "Item 5️⃣",
+    "subtitle": "The fifth item",
     "location": [
       18.102093211772988,
       59.345367545169815
@@ -57,10 +71,13 @@
       "red": 0.99999994039535522,
       "green": 0.17647057771682739,
       "blue": 0.33333331346511841
-    }
+    },
+    "summary": "Nulla lobortis eget lectus et euismod. Nunc semper dui nulla, vel consectetur diam congue sit amet."
   },
   {
     "id": "93F3D219-70D4-43A8-BAF2-D333CB5B21FB",
+    "name": "Item 6️⃣",
+    "subtitle": "A sixth sence for a seventh item!",
     "location": [
       18.113586787920603,
       59.340861792929395
@@ -69,6 +86,22 @@
       "red": 0,
       "green": 0.47843140363693237,
       "blue": 0.99999994039535522
-    }
+    },
+    "summary": "Morbi nisi orci, fermentum id justo quis, malesuada auctor augue. Cras magna leo, auctor at lacinia in, eleifend vitae lectus. Mauris quis gravida est."
+  },
+  {
+    "id": "8826D27F-BC67-461A-87A3-2207D06B1EA9",
+    "name": "Item 7️⃣",
+    "subtitle": "This one is the last one for now!",
+    "location": [
+      18.11659964803975,
+      59.3395819267621
+    ],
+    "color": {
+      "red": 0,
+      "green": 0.27843140363693237,
+      "blue": 0.59999994039535522
+    },
+    "summary": "Nulla facilisi. Quisque hendrerit tortor sed sem consectetur, eu suscipit tortor posuere. Vivamus et scelerisque sapien. Cras nec leo purus. Suspendisse tristique nisl non dapibus euismod. Duis non erat odio. Vestibulum a tempus ipsum. Integer sed nisi aliquet, vulputate risus porttitor, volutpat enim."
   }
 ]

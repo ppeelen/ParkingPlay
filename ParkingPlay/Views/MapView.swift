@@ -62,12 +62,8 @@ struct MapView: View {
 struct MapView_Previews: PreviewProvider {
     static var previews: some View {
         let places = [
-            Place(lat: 59.34855106680632, long: 18.11139511272728, color: .red),
-            Place(lat: 59.348113487029046, long: 18.112897149803945, color: .green),
-            Place(lat: 59.34776888898539, long: 18.11162041828878, color: .gray),
-            Place(lat: 59.34629200059241, long: 18.11033295795274, color: .yellow),
-            Place(lat: 59.345367545169815, long: 18.10209321177299, color: .pink),
-            Place(lat: 59.340861792929395, long: 18.113586787920603, color: .blue)
+            Place(lat: 59.34855106680632, long: 18.11139511272728, color: .red, name: "One", subtitle: "One", summary: "Summary"),
+            Place(lat: 59.348113487029046, long: 18.112897149803945, color: .green, name: "Two", subtitle: "Two", summary: "Summary")
         ]
 
         Group {
