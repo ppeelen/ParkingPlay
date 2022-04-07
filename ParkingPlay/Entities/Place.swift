@@ -8,7 +8,7 @@
 import SwiftUI
 import CoreLocation
 
-struct Place: Identifiable {
+struct Place: Identifiable, Codable {
     let id: UUID
     let location: CLLocationCoordinate2D
     let color: Color

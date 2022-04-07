@@ -1,5 +1,5 @@
 //
-//  TabBar.swift
+//  TabBarView.swift
 //  ParkingPlay
 //
 //  Created by Paul Peelen on 2022-04-05.
@@ -19,7 +19,7 @@ struct TabItem: Identifiable {
     let icon: String
 }
 
-struct TabBar: View {
+struct TabBarView: View {
     @State private var selectedTab: Tab = .map
 
     private var tabItems: [TabItem] = [
@@ -32,8 +32,7 @@ struct TabBar: View {
             Group {
                 switch selectedTab {
                 case .map:
-                    let places = [Place(lat: 59.34855106680632, long: 18.11139511272728)]
-                    MapView(places: places)
+                    MapView()
                 case .list:
                     ContentView()
                 }
@@ -74,10 +73,10 @@ struct TabBar: View {
 struct TabBar_Previews: PreviewProvider {
     static var previews: some View {
         Group {
-            TabBar()
+            TabBarView()
                 .previewDisplayName("Light")
                 .preferredColorScheme(.light)
-            TabBar()
+            TabBarView()
                 .previewDisplayName("Dark")
                 .preferredColorScheme(.dark)
         }
